@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  flex: 1;
+}
+
+.blog-post {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.1);
+  gap: 15px;
+}
+
+.blog-post .thumb {
+  width: 120px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.blog-post h3 {
+  margin: 0;
+  text-transform: none;
+}
+
+.blog-post p {
+  margin: 5px 0;
+}
+
+.read-more {
+  background: #007bff;
+  color: white;
+  padding: 5px 12px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+.meta {
+  font-size: 12px;
+  color: gray;
+}
+
+.tags a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.search-box {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 5px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.widget {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.widget h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.widget ul li a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #343a40;
+  color: white;
+  margin-top: 30px;
+}
